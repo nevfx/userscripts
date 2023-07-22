@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AniList to Nyaa.si search
 // @namespace    none
-// @version      1.0
+// @version      1.1
 // @description  Search the English and Romaji title of an anime/manga from AniList on Nyaa.si
 // @author       nevfx
 // @match        https://anilist.co/*
@@ -49,7 +49,7 @@
 
     // Add the search button when the page is fully loaded
     window.addEventListener('load', function() {
-        addSearchButton();
+        // addSearchButton();
 
         // Listen for the "Ctrl+Alt+G" key combination
         document.addEventListener('keydown', function(event) {
